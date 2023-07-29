@@ -23,6 +23,14 @@ button {
   cursor: pointer;
 }
 
+.gallery {
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 #validation-input {
   border: 3px solid #bdbdbd;
 }
@@ -33,4 +41,11 @@ button {
 
 #validation-input.invalid {
   border-color: #f44336;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 30px;
 }
